@@ -4,32 +4,48 @@
   height: 400px;
   position: relative;
   text-align: center;
+  .word {
+    justify-content: center;
+    text-align: center;
+    span {
+      padding: 10px;
+      margin: 10px;
+      width: 20%;
+      font-size: 70px;
+      font-family: $font-header;
+      font-weight: $font-bold;
+      text-align: center;
+      color: $white;
+    }
+  }
   h3 {
     text-transform: uppercase;
+    font-family: $font-text;
+    font-weight: $font-semibold;
+    letter-spacing: 6px;
+    line-height: 1.5;
     font-size: 16px;
-    color: white;
-  }
-}
-
-.word {
-  padding: 0 30px 30px 30px;
-  margin: 0 30px 30px 30px;
-  span {
-    padding: 10px;
-    margin: 10px;
-    width: 20%;
-    text-align: center;
-    color: white;
+    color: $white;
   }
 }
 
 .main-nav {
   position: relative;
   a {
+    padding: 20px;
+    margin: 20px 20px;
+    text-transform: uppercase;
+    color: $grey;
+    font-family: $font-text;
+    font-weight: $font-light;
+    letter-spacing: 3px;
     text-decoration: none;
     text-align: center;
     &.active {
       color: lighten(#333333, 60%);
     }
+  }
+  a:hover {
+    color: $white;
   }
 }
