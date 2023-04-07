@@ -18,15 +18,6 @@
       color: $white;
     }
   }
-  h3 {
-    text-transform: uppercase;
-    font-family: $font-text;
-    font-weight: $font-semibold;
-    letter-spacing: 6px;
-    line-height: 1.5;
-    font-size: 16px;
-    color: $white;
-  }
 }
 
 .main-nav {
@@ -48,4 +39,10 @@
   a:hover {
     color: $white;
   }
+}
+
+.title {
+  position: relative;
+  padding: 10px;
+  margin: 10px 10px;
 }
