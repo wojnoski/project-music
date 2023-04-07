@@ -10,8 +10,21 @@ h3 {
 
 h4 {
   font-family: $font-text;
-  font-weight: $font-semibold;
+  font-weight: $font-bold;
+  letter-spacing: 2.5px;
   line-height: 1.5;
   font-size: 14px;
   color: $white;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: $font-text;
+  font-weight: $font-light;
+  letter-spacing: 8px;
+  font-size: 60px;
+  text-align: center;
+  span {
+    font-weight: $font-bold;
+  }
 }

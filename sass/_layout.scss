@@ -28,8 +28,8 @@
     text-transform: uppercase;
     color: $grey;
     font-family: $font-text;
-    font-weight: $font-light;
-    letter-spacing: 3px;
+    font-weight: $font-semibold;
+    letter-spacing: 1.5px;
     text-decoration: none;
     text-align: center;
     &.active {
@@ -45,4 +45,29 @@
   position: relative;
   padding: 10px;
   margin: 10px 10px;
+}
+
+.subscribe {
+  background-image: url('../images/subscribe.jpg');
+  background-size: cover;
+  height: 1000px;
+  position: relative;
+  text-align: center;
+  .btn-secondary {
+    background: #ff0000;
+    color: #fff;
+    border-color: #ff0000;
+    border-radius: 4px;
+    transition: all 0.3s;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    padding: 18px;
+    font-family: $font-header;
+    font-weight: $font-bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
