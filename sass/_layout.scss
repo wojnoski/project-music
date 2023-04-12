@@ -52,19 +52,18 @@
   background-size: cover;
   height: 1000px;
   position: relative;
-  text-align: center;
   .btn-secondary {
     background: #ff0000;
     color: #fff;
     border-color: #ff0000;
     border-radius: 4px;
     transition: all 0.3s;
-    display: inline-block;
     border-width: 1px;
     border-style: solid;
-    padding: 18px;
+    margin: 400px 400px;
+    padding: 20px;
     font-family: $font-header;
-    font-weight: $font-bold;
+    font-weight: 900;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: uppercase;
